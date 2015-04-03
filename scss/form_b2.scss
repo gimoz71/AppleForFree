@@ -1,0 +1,710 @@
+/*
+Document   : form.css
+Created on : 21-feb-2013, 15.18.29
+Author     : Gianluca monti
+*/
+
+/*
+Sinstassi raccomandata a http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
+*/
+
+/*-----------------------------
+
+SETTAGGI FORM 
+
+------------------------------*/
+
+#trggr_file {
+    display: block;
+    position: absolute;
+    z-index: -10;
+    font-size: 1px;
+}
+
+.cboxspacer {
+    display: inline-block;
+    margin-right: 10px;
+}
+.feedback_form {
+    float: none !important;
+}
+
+fieldset {
+    border: solid 1px #e5e5e5;
+    @include box-shadow (rgba(0,0,0,.075) 0 2px 3px);
+    margin-top: 5px;
+    legend {
+        padding: 3px 7px;
+        background: #f1f1f1;
+        color: #666;
+        @include border-radius(4px);
+    }
+}
+
+input[type="radio"],input[type="checkbox"] {
+    position: relative;
+    top: 2px;
+}
+
+
+input[type="radio"] + label, label.required {
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="file"], textarea {
+    //@include box-shadow (rgba(0,0,0,0.15) 0 2px 2px inset);
+    border: 1px solid #E3E3E3;
+    @include border-radius(3px);
+    padding: 7px;
+    padding-bottom: 6px;
+    resize: none;
+    .small &{
+        padding: 3px;
+    }
+    &:focus {
+        background-color: #ffe;
+        border: 1px solid darken(#E3E3E3, 5);
+    }
+    .repeat-login &{
+        width: 290px;
+        
+    }
+    .form-default & {
+        width: 320px;
+    }
+    .form-edit-image & {
+        width: calc-em(400, 822);
+    }
+    &.error {
+        //background: #FFE0D5;
+        border: dashed 1px #c00;
+        //color: white;
+    }
+    &.small {
+        padding: 3px;
+        @include border-radius(2px);
+    }
+    
+}
+
+//.show-password-link {
+//    display: block;
+//    position: absolute;
+//    z-index: 11;
+//    margin-top: 4px;
+//    background: #ddd;
+//    border-radius: 3px;
+//    color: white;
+//    width: 25px;
+//    text-align: center;
+//    font-size: 10px;
+//    padding: 0 5px;
+//    text-decoration: none;
+//    text-transform: lowercase;
+//    @include border-radius(2px);
+//    &:hover {
+//        color: white;
+//        background: #ccc;
+//    }
+//    &:active {
+//        color: white;
+//        background: #bbb;
+//    }
+//}
+
+.form-default {
+    font-size: 14px;
+    font-size: 0.875rem;
+    .form-section {
+        padding: 5px 0;
+        h3.field-name {
+            font-size: 14px;
+            font-size: 0.875rem;
+            margin-bottom: 5px;
+        }
+        .form-section-area {
+            position: relative;
+            padding: 1em 0;
+        }
+    }
+    .tags {
+        width: 450px;
+        text-align: left;
+    }
+    h3 {
+        font-size: 16px;
+        font-size: 1rem;
+        color: #333;
+        font-weight: normal;
+        margin: 0;
+        
+    }
+    p {
+        font-size: 14px;
+        font-size: 0.875rem;
+        position: relative;
+    }
+    span {
+        float: left;
+        text-align: left;
+        &.gender {
+            padding: 6px;
+            padding-left: 0;
+            padding-right: 0;
+            width: auto;
+            line-height: 1em;
+			label {
+				display: inline-block;
+				margin-right: 20px;
+			}
+        }
+        &.label {
+            padding: 9px;
+            padding-left: 0;
+            line-height: 1em;
+            width: 150px;
+        }
+    }
+}
+
+/* form con label incolonnate ai campi */
+
+.vertical-form {
+    .form-section {
+        padding: 8px 0;
+        font-size: 12px;
+        font-size: 0.75rem;
+		height:	60px;
+		&.normal-height {
+			height: auto;
+//			padding: 5px 0;
+		}
+    }
+    .fields-container {
+        border: 1px solid #E3E3E3;
+        padding: 5px 7px 6px 7px;
+        width: 320px;
+        @include border-radius(3px);
+        &.combo {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        &.option-list {
+            width: auto;
+            border: none;
+            padding: 0;
+            margin-left: 20px;
+        }
+    }
+    button {
+        position: relative;
+        left: -1px;
+    }
+}
+
+#config {
+    span {
+        text-align: right;
+    }
+}
+
+select {
+    width: auto;
+    background: white;
+    border: 1px solid #E3E3E3;
+    padding: 7px;
+    padding-bottom: 6px;
+    @include border-radius(3px);
+    .small &{
+        padding: 2px;
+    }
+    &.small {
+        padding: 2px;
+        @include border-radius(2px);
+    }
+    &.combo{
+        border: none;
+        border-right: 1px solid #E3E3E3;
+        @include border-radius(0);
+        padding-top: 6px;
+        padding-bottom: 5px;
+    }
+}
+
+
+/* PULSANTI */
+
+button, .button {
+    
+    /* settaggi di default */
+
+    background-color: $button_blue;
+    border: none;
+    padding: 7px 14px;
+    color: white;
+    font-size: 14px;
+    font-size:0.875rem;
+    @include border-radius(3px);
+    @include text-shadow(rgba(black, 0.2) 0px -1px 0);
+    @include box-shadow (rgba(0,0,0,0.1) 0 1px 0);
+    &:hover {
+        color: white;
+        background-color: darken($button_blue, 5);
+    }
+    &:active {
+        color: white;
+        background-color: darken($button_blue, 10);
+    }
+    &.smaller {
+        padding: 4px 8px;
+    }
+
+    &.search { // pulsante per il search
+        span {
+            display: inline-block;
+            background: url('/bundles/snweb/images/search_lens.png') no-repeat left center;
+            padding-left:20px;
+        }
+    }
+
+	&.follow { // nome obsoleto. Serve per posizionare i pulsanti a dx e absolute nei listing vari (segui ecc)
+        position: absolute;
+        top: 15px;
+        right: 0;
+		width: 110px;
+		.spotted-content & {
+			top: 0;
+		}
+
+    }
+	.follow_button {
+		width: 110px;
+	}
+
+	&.ask_question-style { // pulsante per 'fai una domanda'
+		right: 120px;
+		width: auto;
+	}
+
+	/* colorazioni per usi vari */
+
+    &.grey {
+        background-color: lighten($button_grey, 7);
+        &:hover {
+            background-color: lighten($button_grey, 0);
+        }
+    }
+    &.light-blue {
+        background-color: lighten($button_lightblue, 7);
+        &:hover {
+            background-color: lighten($button_lightblue, 0);
+        }
+    }
+    &.fucsia {
+        background-color: $button_fucsia;
+        &:hover {
+            background-color: darken($button_fucsia, 5);
+        }
+    }
+    &.white {
+        background-color: white;
+        &:hover {
+            background-color: darken(white, 5);
+        }
+    }
+    &.orange {
+        background-color: $button_orange;
+        &:hover {
+            background-color: darken($button_orange, 5);
+        }
+        &:active {
+            background-color: darken($button_orange, 10);
+        }
+    }
+
+
+
+    &.green {
+        background-color: $button_green;
+        &:hover {
+            background-color: darken($button_green, 5);
+        }
+        &:active {
+            background-color: darken($button_green, 10);
+        }
+    }
+
+
+	&.red {
+		background-color: $button_red;
+		&:hover {
+			background-color: darken($button_red, 5);
+		}
+		&:active {
+			background-color: darken($button_red, 10);
+		}
+	}
+
+    &.special { // pulsante per 'non seguire'
+        color: $button_special;
+        @include text-shadow(rgba(black, 0) 0 0 0);
+        background-color: lighten($button_grey, 13);
+        &:hover {
+            color: white;
+            background-color: $button_red;
+            @include text-shadow(rgba(black, 0.2) 0px -1px 0);
+        }
+        &:active {
+            color: white;
+            background-color: darken($button_red, 5);
+            @include text-shadow(rgba(black, 0.2) 0px -1px 0);
+        }
+    }
+
+	/* condivisioni */
+
+    &.fb-button { //  specifico x facebook
+        background-color: $button_share;
+        font-size: 11px;
+        font-size: 0.688rem;
+        padding: 0;
+        &:hover {
+            background-color: darken($button_share, 5);
+        }
+        &:active {
+            background-color: darken($button_share, 10);
+        }
+        span {
+            display: block;
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwOS8wMy8xMxnibaYAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAD70lEQVQ4jV2VTYscVRSGn3vrVndXT/VkMuM4JhKELETBL8hKQeJSZxMJ4iIg+ANcCv4Cd/4Awc2sFFSiIkjU4CoYstCQRI1BFExAAjIzZr66u+p8uKiq7tba1KlL3fee877vOTecef710aknn9sajo6dj1nEHQBCaN7NtxPaBfcm7tbbvwkRTI2jB3sX7/1648306BPPbq2fOn2uKFZRtQax29xuDHRxaMECITTrDbzj5sQssrS8c05dt1JRLp/v9Y9zsD+eZWkOsY3bfAkzwMBkKhwcjTEzAAb9nOWyQNUZlitZUS6fT+ZQV4KZNeUugHeVOj479PDwiMc2Cs68+DjDIicE5+79Q678eJ9BP1JNBSeQzB0zw8wJoeOvK3xeugfYP5hw9sxJ3nrjBWLMZhX99NvffPP9n/TyAeaGqpNUDTFDzWZZzShYEE7NGRYZr73yDDFmVLXRyyOixsHRFIcGwwxzI5kaqoaagkMIEYKDzzUHp6qVR9ZKVldKJlVDzQef/sDV6/fIskDRz6hFIUZcnaTmqBomrWKmnTEgzMk4GtccjivUnIBzMJ7y+eXbVJUy6GcsDXuYNe5QM5K1wGoGHoFG6dACe0vJidXExmpOXTdaqDqnTxbUtaAW2d4TYghNkg5JVTHTBhjrTDFzrQF1Lbz3zqucWB+xu18BSoiRd98+R9FPfHH5F97/6CqjckDUiKqSzEClyXqx22ZxW1EWEyFERBrmY4AQEnkGv9/dxgEzQ1VRMZK701lu7q65mR2IMbB18Rob6yM2X3oK98C4Ej7+5CoB4+adv8jz2HRubKybRBQxQ0QJXbt1PLQZxxj48rufeXitZPPs07g700r47OubjKc1K+WAPM9QbShS81Y8aTgOHv7XwM0jaoyW+pRLfWppxDGF0VKPXh6JMSCqzYCKGWbW2k207fvWZ7POnh8gaogatYK5U2njDFUDd7zdq9EwNVJdCZNphUq1kON8HHZxVQvTSQ9pM1ZRJtMJ02lNlrKuTREzqlpI62tDltdGVJOKEMJsXAYcb6khBOpaWVspqbURWww2HhpRiZBibEcn5P0ee/kD0qjss7JcMu3Ngee93E5kbzIplwpqMdwdNefYqKQWJS6InvdyfDog1WJUtVKLttnOCVl8RBRRo5dS61moxahEyGJs/e94DNRqJBGBEDC11m7tbeEOIf7nkPG44tsrt4DGBSIC5pjbTJkYIyZCerCz+1Ux2nm5GB6Pprog2gIdDnmeUHOu3fhj1j+DQY8UUjexCDFwuL9t/2zvXkq3rt+8YGYfHltd3SREcCe2lCxgL153Le/OZH9+wcYQURP2dnYv3bl958K/FmahjA7P1bsAAAAASUVORK5CYII=') no-repeat left center;
+            padding: 4px 8px;
+            padding-left: 28px;
+        }
+    }
+    &.share-button { // per condivisioni generali (apre il custom box con i pulsanti social)
+        background-color: $button_share;
+        font-size: 11px;
+        font-size: 0.688rem;
+        padding: 0;
+		width: 110px;
+        &:hover {
+            background-color: darken($button_share, 5);
+        }
+        &:active {
+            background-color: darken($button_share, 10);
+        }
+        span {
+            display: block;
+            background-repeat: no-repeat;
+            background-position: 3px center;
+            background-image: url('/bundles/snweb/images/icon_share_white.png');
+            @include image-2x("/bundles/snweb/images/icon_share_white2x.png", 20px, 20px);
+            padding: 4px 8px;
+            padding-left: 28px;
+        }
+    }
+
+	&.report-button { // segnalazione abusi
+        background-color: $button_grey;
+        font-size: 11px;
+        font-size: 0.688rem;
+        padding: 0;
+        &:hover {
+            background-color: darken($button_grey, 5);
+        }
+        &:active {
+            background-color: darken($button_grey, 10);
+        }
+        span {
+            display: block;
+            background-repeat: no-repeat;
+            background-position: 3px center;
+            background-image: url('/bundles/snweb/images/icon_report_white.png');
+            @include image-2x("/bundles/snweb/images/icon_report_white2x.png", 20px, 20px);
+            padding: 4px 8px;
+            padding-left: 28px;
+        }
+    }
+
+	/* pulsanti social grandi */
+
+    &.social-button-login-big {
+        padding: 0;
+        font-size: 16px !important;
+        font-size: 1rem !important;
+        
+        &.facebook {
+            background-color: #627AAC;
+            &:hover {
+                background-color: darken(#627AAC, 5);
+            }
+            span {
+                display: inline-block;
+                background: url('/bundles/snweb/images/fb-big.png') no-repeat left center;
+				@include image-2x("/bundles/snweb/images/fb-big2x.png", 40px, 40px);
+                padding: 10px 15px;
+                padding-left: 55px !important;
+                text-align: center !important;
+            }
+        }
+        &.twitter {
+            background-color: #69D7FB;
+            &:hover {
+                background-color: darken(#69D7FB, 5);
+            }
+            span {
+                display: inline-block;
+                background: url('/bundles/snweb/images/tw-big.png') no-repeat left center;
+				@include image-2x("/bundles/snweb/images/tw-big2x.png", 40px, 40px);
+                padding: 10px 15px;
+                padding-left: 55px !important;
+                text-align: center !important;
+            }
+        }
+		&.email {
+			background-color: #EEE;
+			&:hover {
+				background-color: darken(#EEE, 3);
+			}
+			span {
+				display: inline-block;
+				@include text-shadow(rgba(black, 0) 0 0 0);
+				background: url('/bundles/snweb/images/email-big.png') no-repeat left center;
+				@include image-2x("/bundles/snweb/images/email-big2x.png", 40px, 40px);
+				padding: 10px 15px;
+				padding-left: 55px !important;
+				text-align: center !important;
+				color: #bbb;
+			}
+		}
+        &.small {
+            font-size: 14px !important;
+            font-size: 0.875rem !important;
+            span{
+                padding: 8px 10px;
+                padding-left: 50px !important
+            }
+        }
+    }
+}
+
+ h3.title {
+    padding: 10px;
+    border-bottom: solid 1px #ddd;
+    //background: #eee;
+}
+
+/* Gestione immagini */
+
+
+.edit-area {
+    .form_gestione_foto {
+        display: block;
+        span {
+            width: 30%;
+        }
+        input[type="text"], textarea {
+            width: 61%;
+        }
+    }
+}
+
+.preview-pane {
+    position: absolute;
+    z-index: 2000;
+        right: 10px;
+        top: 10px;
+        //border: 1px rgba(white,.3) solid;
+        //background-color: white;
+        //@include border-radius(3px);
+        @include box-shadow (rgba(white, .5) 0 0 0 1px, rgba(black, .2) 0 0 3px);
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -22px;
+    margin-top: -13px;
+    opacity: .5;
+}
+.thumbnail-action {
+    @extend %tag;
+    font-size: 10px;
+    font-size: 0.625rem;
+    @include border-radius(2px);
+    padding: 0;
+    height: 20px;
+    width: 20px;
+    &.download {
+        @include replace-text("/bundles/snweb/images/eye-icon.png", center, center);
+        //background: url("/bundles/snweb/images/eye-icon.png") no-repeat center center;
+    }
+    &.delete {
+        margin-left: 4px;
+        @include replace-text("/bundles/snweb/images/delete-icon.png", center, center);
+        //background: url("/bundles/snweb/images/delete-icon.png") no-repeat center center;
+    }
+    &.modify {
+        @include replace-text("/bundles/snweb/images/pen-icon.png", center, center);
+        //background: url("/bundles/snweb/images/delete-icon.png") no-repeat center center;
+    }
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+label.error {
+    font-size: 10px;
+    font-size: 0.625rem;
+    background-color: #f66;
+    background-position: 2px center;
+    background-repeat: no-repeat;
+    background-image: url('/bundles/snweb/images/alert_white.png');
+    @include image-2x("/bundles/snweb/images/alert_white2x.png", 20px, 20px);
+    position: absolute;
+    display: block;
+    padding: 2px 2px 2px 30px;
+    @include border-radius(0 0 3px 3px);
+    color: white;
+    .arrow-top {
+        position: absolute;
+        top: -6px;
+        left: 5px;
+        width: 0; 
+        height: 0; 
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent; 
+        border-bottom: 6px solid #f66;
+    }
+    .repeat-login &, #config &, .form_fancybox_moderazione & {
+        width: auto;
+        margin-top: -1px;
+        padding: 3px 5px 3px 25px;
+    }
+	.input-text & {
+		top: 0;
+		right: 0;
+		@include border-radius(0 5px 0 3px);
+	}
+    .profile-login & {
+        width: 16px;
+        height: 16px;
+        font-size: 0;
+        line-height: 0;
+        top: 21px;
+        right: 3px;
+    }
+    .post & {
+        //width: 16px;
+        //height: 16px;
+        //font-size: 0;
+        //line-height: 0;
+        bottom: -20px;
+        right: 0;
+        padding-right: 10px;
+    }
+    .vertical-form & {
+        position: relative;
+        display: inline-block;
+        font-size: 10px;
+        top: -1px;
+        background-color: #f66;
+        background-position: 6px center;
+        background-repeat: no-repeat;
+        background-image: url('/bundles/snweb/images/alert_white.png');
+        @include image-2x("/bundles/snweb/images/alert_white2x.png", 20px, 20px);
+        color: white;
+        padding: 8px 10px 6px 30px;
+        margin-left: 10px;
+        @include border-radius(0 10px 10px 0);
+        .arrow-left {
+            position: absolute;
+            top: 8px;
+            left: -7px;
+            width: 0; 
+            height: 0; 
+            border-top: 7px solid transparent;
+            border-bottom: 7px solid transparent; 
+            border-right: 7px solid #f66;
+        }
+    }
+	.input-tool & {
+		position: absolute;
+		top: auto;
+		right: auto;
+		bottom: 10px;
+		left: 10px;
+		@include border-radius(5px);
+		padding: 5px 5px 5px 30px;
+	}
+}
+
+label.done {
+	font-size: 10px;
+	font-size: 0.625rem;
+	//background:  url('/bundles/snweb/images/alert.png') no-repeat left center;
+	background-color: $button_green;
+	background-position: 2px center;
+	background-repeat: no-repeat;
+	background-image: url('/bundles/snweb/images/alert_white.png');
+	@include image-2x("/bundles/snweb/images/alert_white2x.png", 20px, 20px);
+	position: absolute;
+	display: block;
+	padding: 2px 2px 2px 30px;
+	@include border-radius(0 0 3px 3px);
+	color: white;
+	.arrow-top {
+		position: absolute;
+		top: -6px;
+		left: 5px;
+		width: 0;
+		height: 0;
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-bottom: 6px solid $button_green;
+	}
+    .repeat-login &, #config & {
+        width: auto;
+        margin: 2px;
+        padding-left: 18px;
+    }
+	.vertical-form & {
+		position: relative;
+		display: inline-block;
+		font-size: 10px;
+		top: -1px;
+		background-color: $button_green;
+		background-position: 6px center;
+		background-repeat: no-repeat;
+		background-image: url('/bundles/snweb/images/alert_white.png');
+		@include image-2x("/bundles/snweb/images/alert_white2x.png", 20px, 20px);
+		color: white;
+		padding: 6px 10px 7px 30px;
+		margin-left: 10px;
+		@include border-radius(0 10px 10px 0);
+		.arrow-left {
+			position: absolute;
+			top: 8px;
+			left: -7px;
+			width: 0;
+			height: 0;
+			border-top: 7px solid transparent;
+			border-bottom: 7px solid transparent;
+			border-right: 7px solid $button_green;
+		}
+	}
+}
+
+#error_load_foto {
+    text-align: center;
+    @include border-radius(px);
+    width: auto;
+    background: $button_red;
+    color: white;
+    padding: 3px 15px;
+    margin: 0 !important;
+}

@@ -1,0 +1,5 @@
+// setto le funzioni base
+
+@function calc-em($target-px, $context) {
+  @return ($target-px / $context) * 100%;
+}

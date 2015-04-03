@@ -1,0 +1,60 @@
+// compatibilità
+
+$legacy-support-for-ie6: true;
+$legacy-support-for-ie7: true;
+$legacy-support-for-ie8: true;
+$legacy-support-for-mozilla: true;
+
+//----------------------------
+//
+// Setto le variabili  dei colori
+//
+//----------------------------
+
+
+// colori base
+
+$colore_tag:			#F2F2F2;
+$link_base:				#78A9DA;
+$link_red:				#DC6652;
+
+// bg evidenziatori
+$bg_marker_yellow:		#fffecc;
+$bg_marker_red:			#ff8888;
+
+$bg_body: 				#F0F0F0;
+$bg_header: 			#383F47;
+$bg_console: 			#fcfcfc;
+
+$red: 					#cc0000;
+$green: 				#009900;
+$border_light: 			#F6F6F6;
+$hover_lightblue: 		#E6F9FF;
+
+
+// messaggi sistema
+
+$msg_border: 			#DEE7EB;
+$msg_bg: 				#E4EEF1;
+$msg_text: 				#70ABC5;
+
+
+// social
+$fb_bg: 				#627AAC;
+$tw_bg: 				#69D7FB;
+
+
+// colori dei pulsanti
+
+$button_default: 		#0074C2;
+$button_green: 			#64CF16;
+$button_red: 			#E90000;
+$button_blue: 			#578DD7;
+$button_blue_em: 		#0097fc;
+$button_share: 			#627AAC;
+$button_fucsia: 		#D94387;
+$button_lightblue: 		#26C9FF;
+$button_grey: 			#cccccc;
+$button_special: 		#aaaaaa;
+$button_orange: 		#FF8E4D;
+$button_yellow: 		#fffec1;

@@ -1,0 +1,123 @@
+/* CSS Document */
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('/fonts/lps/fonts/Roboto-Bold-webfont.eot');
+    src: url('/fonts/lps/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/lps/Roboto-Bold-webfont.woff2') format('woff2'),
+    url('/fonts/lps/Roboto-Bold-webfont.woff') format('woff'),
+    url('/fonts/lps/Roboto-Bold-webfont.ttf') format('truetype'),
+    url('/fonts/lps/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('/fonts/lps/Roboto-Medium-webfont.eot');
+    src: url('/fonts/lps/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/lps/Roboto-Medium-webfont.woff2') format('woff2'),
+    url('/fonts/lps/Roboto-Medium-webfont.woff') format('woff'),
+    url('/fonts/lps/Roboto-Medium-webfont.ttf') format('truetype'),
+    url('/fonts/lps/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('/fonts/lps/Roboto-Light-webfont.eot');
+    src: url('/fonts/lps/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/lps/Roboto-Light-webfont.woff2') format('woff2'),
+    url('/fonts/lps/Roboto-Light-webfont.woff') format('woff'),
+    url('/fonts/lps/Roboto-Light-webfont.ttf') format('truetype'),
+    url('/fonts/lps/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('/fonts/lps/Roboto-Thin-webfont.eot');
+    src: url('/fonts/lps/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/lps/Roboto-Thin-webfont.woff2') format('woff2'),
+    url('/fonts/lps/Roboto-Thin-webfont.woff') format('woff'),
+    url('/fonts/lps/Roboto-Thin-webfont.ttf') format('truetype'),
+    url('/fonts/lps/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*----------------------------------*/
+
+/* basic stuff */
+
+/*----------------------------------*/
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-size: 1.125rem;
+}
+
+h2 {
+    font-size: 32px;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 32px;
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+strong {
+    font-family: "robotolight",Helvetica,sans-serif;
+}
+
+a:link, a:visited {
+    color: #337FC5;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #337FC5;
+    text-decoration: underline;
+}
+
+/* Macroelements  */
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "robotothin",Helvetica,sans-serif;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background: #fdfdfd;
+    margin: 0;
+    padding: 0;
+    font-family: "robotothin",Helvetica,sans-serif;
+    font-size: 12px;
+    font-size: 0.75rem;
+    color: #333;
+}
+
+footer {
+    display: block;
+    margin: 0;
+    padding: 20px 0;
+    color: #000;
+    opacity: .5;
+}
+footer p {
+    text-align: center;
+}

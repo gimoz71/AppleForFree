@@ -1,0 +1,69 @@
+
+button {
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 rgba(0,0,0, 0.2);
+    box-shadow: 0 1px 0 rgba(0,0,0, 0.2);
+    padding: 7px 14px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-family: "robotolight",Helvetica,sans-serif;
+}
+
+.orange {
+    padding: 10px 40px;
+    background-color:#FF8E4D;
+}
+.orange:hover {
+    background-color: #ff9d69;
+}
+
+.green {
+    padding: 10px 40px;
+    background-color:#0D9681;
+}
+.green:hover {
+    background-color: #11ab91;
+}
+
+.small {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+
+/* SOCIAL */
+
+.fb-button {
+    background-color: #627AAC;
+    padding: 0;
+}
+.fb-button:hover {
+    background-color: #708cc4;
+}
+.fb-button span {
+    display: inline-block;
+    background: url(../../images/lps/fb-big.png) no-repeat left center;
+    padding: 10px 40px;
+    padding-left: 90px;
+    text-align: center;
+}
+
+.fb-button span {
+    padding: 10px 20px;
+    padding-left: 70px;
+}
+
+@media screen and (max-width: 980px) {
+    button {
+        padding: 10px 20px !important;
+        font-size: 16px !important;
+        font-size: 1rem !important;
+    }
+    .fb-button {
+        padding: 0!important;
+    }
+}

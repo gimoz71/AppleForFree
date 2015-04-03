@@ -1,0 +1,195 @@
+/*-----------------------------
+    
+    UTILITY
+    
+------------------------------*/
+
+// utility di layout
+
+
+.left {
+    float: left !important;
+}
+
+.right {
+    float: right !important;
+}
+
+.no-display {
+    display: none;
+}
+.clearer {
+    clear: both;
+}
+.relative {
+    position: relative;
+}
+
+.ten {
+    display: block;
+    height: 10px;
+}
+.twenty {
+    display: block;
+    height: 20px;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+.no-rounded-top {
+    @include border-top-radius(0 !important);
+}
+.no-rounded-bottom {
+    @include border-bottom-radius(0 !important);
+}
+.no-rounded-left {
+    @include border-left-radius(0 !important);
+}
+.no-rounded-right {
+    @include border-right-radius(0 !important);
+}
+
+.loader {
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-image: url('/bundles/snweb/images/ajax-loader-white.gif') !important;
+	@include image-2x("/bundles/snweb/images/ajax-loader-white2x.gif", 16px, 11px !important);
+}
+.loader-black {
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-image: url('/bundles/snweb/images/ajax-loader.gif');
+	@include image-2x("/bundles/snweb/images/ajax-loader2x.gif", 16px, 11px);
+}
+
+// utility grafiche
+
+.hr {
+    margin: 20px 0 0 0;
+    padding: 0;
+    border-top:1px solid rgba(0, 0, 0, .5);
+    border-left:0;
+    border-right:0;
+    line-height:0;
+    height: 0px;
+    font-size: 0;
+    display: block;
+}
+.hr-light {
+    margin: 0;
+    padding: 0;
+    border-top:1px solid rgba(0, 0, 0, .05);
+    border-left:0px;
+    border-right:0px;
+    line-height:0;
+    height: 0px;
+    font-size: 0;
+    display: block;
+}
+.bevel {
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+    background: url('/bundles/snweb/images/x-close.png') no-repeat center center;
+        @include image-2x("/bundles/snweb/images//x-close2x.png", 10px, 10px);
+    &.white{
+        background: url('/bundles/snweb/images/x-close-white.png') no-repeat center center;
+        @include image-2x("/bundles/snweb/images//x-close-white2x.png", 10px, 10px);
+    }
+    &.yellow{
+        background: url('/bundles/snweb/images/x-close-yellow.png') no-repeat center center;
+        @include image-2x("/bundles/snweb/images//x-close-yellow2x.png", 10px, 10px);
+    }
+	&.message{
+        background: url('/bundles/snweb/images/x-close-lightblue.png') no-repeat center center;
+        @include image-2x("/bundles/snweb/images//x-close-lightblue2x.png", 10px, 10px);
+    }
+    &.squared {
+        top: 0;
+        right: 0;
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-left: 1px solid #000;
+        &:before {
+            content: " ";
+            position: relative;
+            z-index: -1;
+            left: -1px;
+            border-left: 1px solid white;
+        }
+    }
+}
+
+.delete/*, .delete-commento, .delete-risposta, .delete-domanda, .delete-domanda-nuova, .delete-notifica*/ {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 14px;
+    height: 14px;
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('/bundles/snweb/images/delete.png');
+    @include image-2x("/bundles/snweb/images/delete2x.png", 14px, 14px);
+}
+
+.baloon-container {
+    position: absolute;
+    top: 100%;
+	right: 0;
+	z-index: 200;
+    display: none;
+    padding: 0;
+	margin-top: -1px;
+    .voice-baloon {
+        padding: 3px;
+        background-color: white;
+        color: #999;
+        width: 200px;
+        min-height: 40px;
+		border: none;
+		@include box-shadow(rgba(0,0,0,.05) 0 1px 2px);
+		@include border-radius(3px 0 3px 3px);
+        a {
+            @include border-radius(2px);
+            padding: 2px 10px;
+            display: block;
+            @include background(white);
+            &:hover {
+                @include background($colore_tag);
+            }
+        }
+    }
+    .content-baloon {
+        padding: 5px;
+        background-color: white;
+        color: #999;
+        width: 250px;
+        min-height: 40px;
+    }
+}
+
+/* marker realtime */
+
+.barno {
+	background-color: $bg_marker_yellow;
+}
+.barno_error {
+	background-color: $bg_marker_red;
+}
