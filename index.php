@@ -9,7 +9,7 @@
         <meta property="og:type"            content="product" />
         <meta property="og:url"             content="http://www.appleforfree.com" />
         <meta property="og:title"           content="La mela diventa per tutti" />
-        <meta property="og:image"           content="https://scontent-mxp.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10606205_687341228044844_2738984387206199640_n.jpg?oh=cbf3a735bee692360602e65b64b30ba8&oe=55A43ED6" />
+        <meta property="og:image"           content="http://www.appleforfree.com/images/fb_like_logo.jpg" />
         <meta property="og:description"    content=" AppleForFree.com ti permette di ricevere gratuitamente ed in poco tempo uno dei tanti prodotti Apple, nuovi ed originali, offerti nelle vetrine dei siti web del nostro sito. Per ottenerli basta semplicemente  accedere ed usufruire  degli accessori oppure dei servizi offerti nel markeplace." />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href=favicon.ico" type="image/x-icon">
