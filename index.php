@@ -42,12 +42,12 @@
             <h2>La mela diventa per tutti!</h2>
         </header>
         <div class="content">
-            <p>AppleForFree.com ti permette di <stron>ricevere gratuitamente ed in poco tempo</stron> uno dei tanti prodotti Apple, nuovi ed originali, offerti nelle vetrine dei siti web del nosrtro sito.<br>Per ottenerli basta semplicemente accedere ed usufruire degli accessori oppure dei servizi offerti nel marketplace.</p>
+            <p>AppleForFree.com ti permette di <stron>ricevere gratuitamente ed in poco tempo</stron> uno dei tanti prodotti Apple, nuovi ed originali, offerti nelle vetrine dei siti web del nostro sito.<br>Per ottenerli basta semplicemente accedere ed usufruire degli accessori oppure dei servizi offerti nel marketplace.</p>
         </div>
         <footer>
             <p>Seguici su Facebook per essere uno dei primi utenti felici</p>
-            <div style="margin: 10px 0;" class="fb-like" data-href="http://www.appleforfree.com/" data-width="50" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
-            <p>Stay tuned</p>
+            <div style="margin: 10px 0 30px 0;" class="fb-like" data-href="http://www.appleforfree.com/" data-width="50" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+            <h4>Stay tuned</h4>
         </footer>
     </body>
 </html>
