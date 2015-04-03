@@ -102,7 +102,8 @@ html {
 
 body {
     -webkit-font-smoothing: antialiased;
-    background: #000;
+    background: #000 url(../images/bg.jpg) no-repeat center center;
+    background-size: cover;
     margin: 0;
     padding: 40px 0;
     font-family: "robotothin",Helvetica,sans-serif;
@@ -123,7 +124,7 @@ header .menu {
 header .logo {
     display: block;
     margin: 10px auto;
-    background: url("../images/logo.png") no-repeat center center;
+    background: url("../images/logo.png") no-repeat center top;
     width: 286px;
     height: 234px;
     font-size: 0;
