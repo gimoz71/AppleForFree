@@ -42,7 +42,7 @@
             <h2>La mela diventa per tutti!</h2>
         </header>
         <div class="content">
-            <p>AppleForFree.com ti permette di <stron>ricevere gratuitamente ed in poco tempo</stron> uno dei tanti prodotti Apple, nuovi ed originali, offerti nelle vetrine dei siti web del nostro network.<br>Per ottenerli basta semplicemente accedere ed usufruire degli accessori oppure dei servizi offerti nel marketplace.</p>
+            <p>AppleForFree.com ti permette di <strong>ricevere gratuitamente ed in poco tempo</strong> uno dei tanti prodotti Apple, nuovi ed originali, offerti nelle vetrine dei siti web del nostro network.<br>Per ottenerli basta semplicemente accedere ed usufruire degli accessori oppure dei servizi offerti nel marketplace.</p>
         </div>
         <footer>
             <p>Seguici su Facebook per essere uno dei primi utenti felici</p>
