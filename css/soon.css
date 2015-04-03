@@ -104,7 +104,7 @@ body {
     -webkit-font-smoothing: antialiased;
     background: #000;
     margin: 0;
-    padding: 40px;
+    padding: 40px 0;
     font-family: "robotothin",Helvetica,sans-serif;
     font-size: 12px;
     font-size: 0.75rem;
@@ -118,6 +118,7 @@ header {
 }
 header .menu {
     font-size: 24px;
+    margin-bottom: 120px;
 }
 header .logo {
     display: block;

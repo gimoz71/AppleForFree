@@ -11,7 +11,7 @@
         <meta property="og:title"           content="La mela diventa per tutti" />
         <meta property="og:image"           content="http://www.appleforfree.com/images/fb_like_logo.jpg" />
         <meta property="og:image:width"     content="500" />
-        <meta property="og:image:height"     content="500" />
+        <meta property="og:image:height"    content="500" />
         <meta property="og:description"    content=" AppleForFree.com ti permette di ricevere gratuitamente ed in poco tempo uno dei tanti prodotti Apple, nuovi ed originali, offerti nelle vetrine dei siti web del nostro sito. Per ottenerli basta semplicemente  accedere ed usufruire  degli accessori oppure dei servizi offerti nel markeplace." />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href=favicon.ico" type="image/x-icon">
