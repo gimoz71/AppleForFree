@@ -1,0 +1,74 @@
+// PLACEHOLDER
+
+
+// pulsanti console
+
+%button {
+    text-align: center;
+    padding: 5px;
+    background: $bg_console;
+    border:1px solid darken($bg_console, 10);
+    cursor: pointer;
+    &:hover {
+        background: darken($bg_console, 5);
+        
+    }
+    &:active, &.active {
+        background: darken($bg_console, 10);
+        
+    }
+}
+
+%stand-alone-button {
+    @extend %button;
+    @include border-radius(3px);
+}
+
+%array-button {
+    @extend %button;
+    border-right: 1px solid white;
+    border-left: 1px solid darken($bg_console, 10);
+    padding: 1px 10px;
+    margin: 0;
+    a {
+        color: #333 !important;
+    }
+    &.first, &:first-child {
+        @include border-left-radius(3px);
+        border-left: 1px solid darken($bg_console, 10);
+    }
+	&.last, &:last-child {
+        @include border-right-radius(3px);
+        border-right: 1px solid darken($bg_console, 10);
+    } 
+}
+
+%array-button-simple {
+    @extend %button;
+    border: none;
+    border-right: 1px solid darken($bg_console, 10);
+    padding: 1px 10px;
+    margin: 0;
+    a {
+        color: #333 !important;
+    }
+    &.first, &:first-child {
+        @include border-left-radius(5px);
+    }
+    &.last, &:last-child {
+        @include border-right-radius(5px);
+        border-right: none;
+    } 
+}
+
+%tag {
+    display: inline-block;
+    background: $colore_tag;
+    padding: 3px 10px;
+    @include border-radius(3px);
+    cursor: pointer;
+    &:hover {
+        background: darken($colore_tag, 3);
+        color: darken($link_base, 3);
+    };
+}
