@@ -11,8 +11,9 @@
     <title>Theme Template for Bootstrap</title>
     <!-- Custom styles for this template -->
     <link href="stylesheets/styles.css" rel="stylesheet">
+    <link href="stylesheets/sb-admin-2.css" rel="stylesheet">
     <!-- Optional theme -->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
     <style>
         body {
             padding-top: 70px;
@@ -33,9 +34,7 @@
             width: auto;
         }
 
-
     </style>
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -91,6 +90,122 @@
     <div class="page-header">
         <h1>Buttons</h1>
     </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Circle Icon Buttons with Font Awesome Icons
+        </div>
+        <!-- /.panel-heading -->
+        <div class="panel-body">
+            <h4>Normal Circle Buttons</h4>
+            <button type="button" class="btn btn-default btn-circle"><i class="fa fa-check"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-circle"><i class="fa fa-list"></i>
+            </button>
+            <button type="button" class="btn btn-success btn-circle"><i class="fa fa-link"></i>
+            </button>
+            <button type="button" class="btn btn-info btn-circle"><i class="fa fa-check"></i>
+            </button>
+            <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-times"></i>
+            </button>
+            <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-heart"></i>
+            </button>
+            <br>
+            <br>
+            <h4>Large Circle Buttons</h4>
+            <button type="button" class="btn btn-default btn-circle btn-lg"><i class="fa fa-check"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-circle btn-lg"><i class="fa fa-list"></i>
+            </button>
+            <button type="button" class="btn btn-success btn-circle btn-lg"><i class="fa fa-link"></i>
+            </button>
+            <button type="button" class="btn btn-info btn-circle btn-lg"><i class="fa fa-check"></i>
+            </button>
+            <button type="button" class="btn btn-warning btn-circle btn-lg"><i class="fa fa-times"></i>
+            </button>
+            <button type="button" class="btn btn-danger btn-circle btn-lg"><i class="fa fa-heart"></i>
+            </button>
+            <br>
+            <br>
+            <h4>Extra Large Circle Buttons</h4>
+            <button type="button" class="btn btn-default btn-circle btn-xl"><i class="fa fa-check"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-circle btn-xl"><i class="fa fa-list"></i>
+            </button>
+            <button type="button" class="btn btn-success btn-circle btn-xl"><i class="fa fa-link"></i>
+            </button>
+            <button type="button" class="btn btn-info btn-circle btn-xl"><i class="fa fa-check"></i>
+            </button>
+            <button type="button" class="btn btn-warning btn-circle btn-xl"><i class="fa fa-times"></i>
+            </button>
+            <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-heart"></i>
+            </button>
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Social Buttons with Font Awesome Icons
+        </div>
+        <!-- /.panel-heading -->
+        <div class="panel-body">
+            <h4>Social Buttons</h4>
+            <a class="btn btn-block btn-social btn-bitbucket">
+                <i class="fa fa-bitbucket"></i> Sign in with Bitbucket
+            </a>
+            <a class="btn btn-block btn-social btn-dropbox">
+                <i class="fa fa-dropbox"></i> Sign in with Dropbox
+            </a>
+            <a class="btn btn-block btn-social btn-facebook">
+                <i class="fa fa-facebook"></i> Sign in with Facebook
+            </a>
+            <a class="btn btn-block btn-social btn-flickr">
+                <i class="fa fa-flickr"></i> Sign in with Flickr
+            </a>
+            <a class="btn btn-block btn-social btn-github">
+                <i class="fa fa-github"></i> Sign in with GitHub
+            </a>
+            <a class="btn btn-block btn-social btn-google-plus">
+                <i class="fa fa-google-plus"></i> Sign in with Google
+            </a>
+            <a class="btn btn-block btn-social btn-instagram">
+                <i class="fa fa-instagram"></i> Sign in with Instagram
+            </a>
+            <a class="btn btn-block btn-social btn-linkedin">
+                <i class="fa fa-linkedin"></i> Sign in with LinkedIn
+            </a>
+            <a class="btn btn-block btn-social btn-pinterest">
+                <i class="fa fa-pinterest"></i> Sign in with Pinterest
+            </a>
+            <a class="btn btn-block btn-social btn-tumblr">
+                <i class="fa fa-tumblr"></i> Sign in with Tumblr
+            </a>
+            <a class="btn btn-block btn-social btn-twitter">
+                <i class="fa fa-twitter"></i> Sign in with Twitter
+            </a>
+            <a class="btn btn-block btn-social btn-vk">
+                <i class="fa fa-vk"></i> Sign in with VK
+            </a>
+
+            <hr>
+
+            <div class="text-center">
+                <a class="btn btn-social-icon btn-bitbucket"><i class="fa fa-bitbucket"></i></a>
+                <a class="btn btn-social-icon btn-dropbox"><i class="fa fa-dropbox"></i></a>
+                <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-flickr"><i class="fa fa-flickr"></i></a>
+                <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+                <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                <a class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                <a class="btn btn-social-icon btn-pinterest"><i class="fa fa-pinterest"></i></a>
+                <a class="btn btn-social-icon btn-tumblr"><i class="fa fa-tumblr"></i></a>
+                <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-vk"><i class="fa fa-vk"></i></a>
+            </div>
+        </div>
+        <!-- /.panel-body -->
+    </div>
+
     <p>
         <button type="button" class="btn btn-lg btn-default">Default</button>
         <button type="button" class="btn btn-lg btn-primary">Primary</button>
