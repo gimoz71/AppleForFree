@@ -56,7 +56,7 @@
         <header>
             <div class="menu">www.<strong>apple</strong>forfree.com</div>
             <h1 class="logo">AppleForFree.com</h1>
-            <h2>La mela diventa per tutti!</h2>
+            <h2>La mela pi&ugrave; ambita diventa per tutti!</h2>
         </header>
         <div class="content">
             <p>AppleForFree.com ti permette di <strong>ricevere gratuitamente ed in poco tempo</strong> uno dei tanti prodotti Apple, nuovi ed originali, offerti nelle vetrine dei siti web del nostro network. Per ottenerli basta semplicemente accedere ed usufruire degli accessori oppure dei servizi offerti nel marketplace.</p>

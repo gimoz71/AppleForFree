@@ -112,6 +112,14 @@ body {
     text-align: center;
 }
 
+@media screen and (max-width: 980px) {
+
+    body {
+        padding: 20px 0;
+    }
+
+}
+
 header {
     padding: 0;
     margin: 0;
@@ -144,7 +152,7 @@ header .logo {
     line-height: 0;
 }
 header h2 {
-    font-size: 40px;
+    font-size: 34px;
 }
 
 @media screen and (max-width: 980px) {
@@ -158,7 +166,7 @@ header h2 {
         height: 156px;
     }
     header h2 {
-        font-size: 26px;
+        font-size: 28px;
     }
 
 }
