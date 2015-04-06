@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>AppleForFree.com - La Mela Diventa per Tutti</title>
-        <meta name="description" content=" AppleForFree.com ti permette di ricevere gratuitamente ed in poco tempo uno dei tanti prodotti Apple, nuovi ed originali, offerti nelle vetrine dei siti web del nostro sito. Per ottenerli basta semplicemente  accedere ed usufruire  degli accessori oppure dei servizi offerti nel markeplace.">
+        <meta name="description" content="AppleForFree.com ti permette di ricevere gratuitamente ed in poco tempo uno dei tanti prodotti Apple, nuovi ed originali, offerti nelle vetrine dei siti web del nostro sito. Per ottenerli basta semplicemente  accedere ed usufruire  degli accessori oppure dei servizi offerti nel markeplace.">
         <meta name="keywords" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="fb:app_id"          content="1496481453932000" />
@@ -32,7 +32,7 @@
         <meta name="msapplication-TileColor" content="#2b5797">
         <meta name="msapplication-TileImage" content="images/mstile-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <link href="css/soon.css" media="screen" rel="stylesheet" type="text/css">
+        <link href="stylesheets/soon.css" media="screen" rel="stylesheet" type="text/css">
         <style type="text/css">
             .clearfix:after {
                 content: ".";
