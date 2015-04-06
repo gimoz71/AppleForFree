@@ -193,16 +193,23 @@ footer p {
 footer h4 {
     font-size: 26px;
 }
+footer .fb-like {
+    display: inline-block;
+    margin: 10px 0;
+}
 
 @media screen and (max-width: 980px) {
 
     footer p {
         font-family: "robotonormal",Helvetica,sans-serif;
         color: #486AB6;
-        font-size: 16px;
+        font-size: 14px;
     }
     footer h4 {
         font-size: 20px;
+    }
+    footer .fb-like {
+        margin: 10px 0;
     }
 
 }

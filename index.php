@@ -63,7 +63,7 @@
         </div>
         <footer>
             <p>Seguici su Facebook per essere uno dei primi utenti felici</p>
-            <div style="margin: 10px 0 30px 0;" class="fb-like" data-href="http://www.appleforfree.com/" data-width="50" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+            <div class="fb-like" data-href="http://www.appleforfree.com/" data-width="50" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
             <h4>Stay tuned</h4>
         </footer>
     </body>
