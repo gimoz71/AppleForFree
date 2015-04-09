@@ -103,31 +103,32 @@
                     </div>
                     <div class="col-md-6">
                         <h4>Capienza 64 GB</h4>
-                        <h4>Capienza 64 GB</h4>
-                        <h4>Capienza 64 GB</h4>
-                        <h4>Capienza 64 GB</h4>
+                        <h4>Software IOS 8</h4>
+                        <h4>Chip A8, M8</h4>
+                        <h4>Display 4,7 Inch</h4>
                         <h4>Capienza 64 GB</h4>
                     </div>
                     <div class="col-md-6">
-                        <h4>Capienza 64 GB</h4>
-                        <h4>Capienza 64 GB</h4>
-                        <h4>Capienza 64 GB</h4>
-                        <h4>Capienza 64 GB</h4>
-                        <h4>Capienza 64 GB</h4>
+                        <h4>LTE</h4>
+                        <h4>Retina Display</h4>
+                        <h4>Touch ID</h4>
+                        <h4>Wi‑Fi 802.11a/b/g/n/ac</h4>
+                        <h4>Bluetooth 4.0</h4>
                     </div>
                     <div class="col-md-12">
+                        <hr>
                         <p class="text-muted"><small>iPhone 6 non è soltanto più grande: è ancora migliore, da ogni punto di vista. Più largo, ma decisamente più sottile. Più potente, ma anche più efficiente nei consumi. Un’avvolgente superficie in metallo che diventa tutt’uno con il nuovo display Retina HD. Un design in cui hardware e software si completano e si integrano alla perfezione, dando vita a una nuova generazione di iPhone.</small></p>
                         <p>Visita Apple Store per maggiori informazioni su iPhone 6</p>
+                        <hr>
                     </div>
-                    <hr>
                     <div class="col-md-6">
                         <h1><small>Prezzo</small> <del>799€</del></h1>
                     </div>
                     <div class="col-md-6">
                         <h1><small>prendilo</small> Gratis!</h1>
                     </div>
-                    <hr>
                     <div class="col-md-12">
+                        <hr>
                         <h5>Registrati subito per ricevere il tuo nuovo iPhone 6</h5>
                         <a class="btn btn-social btn-facebook">
                             <i class="fa fa-facebook"></i> Registrati con Facebook
