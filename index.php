@@ -53,18 +53,20 @@
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
         </script>
-        <header>
-            <div class="menu">www.<strong>apple</strong>forfree.com</div>
-            <h1 class="logo">AppleForFree.com</h1>
-            <h2>La mela pi&ugrave; ambita diventa per tutti!</h2>
-        </header>
-        <div class="content">
-            <p>AppleForFree.com ti permette di <strong>ricevere gratuitamente ed in poco tempo</strong> uno dei tanti prodotti Apple, nuovi ed originali, offerti nelle vetrine dei siti web del nostro network. Per ottenerli basta semplicemente accedere ed usufruire degli accessori oppure dei servizi offerti nel marketplace.</p>
+        <div class="container">
+            <header>
+                <div class="menu">www.<strong>apple</strong>forfree.com</div>
+                <h1 class="logo">AppleForFree.com</h1>
+                <h2>La mela pi&ugrave; ambita diventa per tutti!</h2>
+            </header>
+            <div class="content">
+                <p>AppleForFree.com ti permette di <strong>ricevere gratuitamente ed in poco tempo</strong> uno dei tanti prodotti Apple, nuovi ed originali, offerti nelle vetrine dei siti web del nostro network. Per ottenerli basta semplicemente accedere ed usufruire degli accessori oppure dei servizi offerti nel marketplace.</p>
+            </div>
+            <footer>
+                <p>Seguici su Facebook per essere uno dei primi utenti felici</p>
+                <div class="fb-like" data-href="http://www.appleforfree.com/" data-width="50" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+                <h4>Stay tuned</h4>
+            </footer>
         </div>
-        <footer>
-            <p>Seguici su Facebook per essere uno dei primi utenti felici</p>
-            <div class="fb-like" data-href="http://www.appleforfree.com/" data-width="50" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
-            <h4>Stay tuned</h4>
-        </footer>
     </body>
 </html>
