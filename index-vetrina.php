@@ -5,10 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="NUovo e gratis su AppleForFree.com!!! Con il suo innovativo design avvolgente, il display più evoluto di sempre e tanto altro, iPhone 6 è molto più che più grande.">
+    <meta name="description" content="Nuovo e gratis su AppleForFree.com!!! Con il suo innovativo design avvolgente, il display più evoluto di sempre e tanto altro, iPhone 6 è molto più che più grande.">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
     <title>AppleForFree.com - Regalati Gratis il tuo nuovo iPhone 6 64Gb</title>
+    <meta property="fb:app_id"          content="1496481453932000" />
+    <meta property="og:type"            content="product" />
+    <meta property="og:url"             content="http://www.appleforfree.com/Apple-iPhone-6-64gb" />
+    <meta property="og:title"           content="AppleForFree.com - Regalati Gratis il tuo nuovo iPhone 6 64Gb" />
+    <meta property="og:image"           content="http://www.appleforfree.com/images/fb_like_logo.jpg" />
+    <meta property="og:image:width"     content="500" />
+    <meta property="og:image:height"    content="500" />
+    <meta property="og:description"    content="Nuovo e gratis su AppleForFree.com!!! Con il suo innovativo design avvolgente, il display più evoluto di sempre e tanto altro, iPhone 6 è molto più che più grande." />
     <!-- Custom styles for this template -->
     <link href="stylesheets/styles.css" rel="stylesheet">
     <link href="stylesheets/sb-admin-2.css" rel="stylesheet">
