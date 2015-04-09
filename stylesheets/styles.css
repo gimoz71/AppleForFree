@@ -337,7 +337,7 @@ th {
   }
 
   /* line 78, ../sass/bootstrap/_print.scss */
-  .navbar {
+  .navbar, .product-navbar {
     display: none;
   }
 
@@ -1972,7 +1972,7 @@ mark,
 }
 
 /* line 92, ../sass/bootstrap/_type.scss */
-.text-center {
+.text-center, .product-navbar {
   text-align: center;
 }
 
@@ -2392,22 +2392,22 @@ pre code {
 }
 
 /* line 39, ../sass/bootstrap/_grid.scss */
-.row {
+.row, .product-highlight, .product-highlight-description, .other-products {
   margin-left: -15px;
   margin-right: -15px;
 }
 /* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
-.row:before, .row:after {
+.row:before, .product-highlight:before, .product-highlight-description:before, .other-products:before, .row:after, .product-highlight:after, .product-highlight-description:after, .other-products:after {
   content: " ";
   display: table;
 }
 /* line 19, ../sass/bootstrap/mixins/_clearfix.scss */
-.row:after {
+.row:after, .product-highlight:after, .product-highlight-description:after, .other-products:after {
   clear: both;
 }
 
 /* line 11, ../sass/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .products-navbar-product, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2937,7 +2937,7 @@ pre code {
 }
 @media (min-width: 992px) {
   /* line 27, ../sass/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .products-navbar-product, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
 
@@ -2947,7 +2947,7 @@ pre code {
   }
 
   /* line 35, ../sass/bootstrap/mixins/_grid-framework.scss */
-  .col-md-2 {
+  .col-md-2, .products-navbar-product {
     width: 16.6666666667%;
   }
 
@@ -5471,24 +5471,24 @@ tbody.collapse.in {
 }
 
 /* line 11, ../sass/bootstrap/_navbar.scss */
-.navbar {
+.navbar, .product-navbar {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
 /* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
-.navbar:before, .navbar:after {
+.navbar:before, .product-navbar:before, .navbar:after, .product-navbar:after {
   content: " ";
   display: table;
 }
 /* line 19, ../sass/bootstrap/mixins/_clearfix.scss */
-.navbar:after {
+.navbar:after, .product-navbar:after {
   clear: both;
 }
 @media (min-width: 768px) {
   /* line 11, ../sass/bootstrap/_navbar.scss */
-  .navbar {
+  .navbar, .product-navbar {
     border-radius: 4px;
   }
 }
@@ -5630,7 +5630,7 @@ tbody.collapse.in {
 }
 
 /* line 163, ../sass/bootstrap/_navbar.scss */
-.navbar-brand {
+.navbar-brand, .header-logo {
   float: left;
   padding: 15px 15px;
   font-size: 18px;
@@ -5638,16 +5638,16 @@ tbody.collapse.in {
   height: 50px;
 }
 /* line 170, ../sass/bootstrap/_navbar.scss */
-.navbar-brand:hover, .navbar-brand:focus {
+.navbar-brand:hover, .header-logo:hover, .navbar-brand:focus, .header-logo:focus {
   text-decoration: none;
 }
 /* line 175, ../sass/bootstrap/_navbar.scss */
-.navbar-brand > img {
+.navbar-brand > img, .header-logo > img {
   display: block;
 }
 @media (min-width: 768px) {
   /* line 180, ../sass/bootstrap/_navbar.scss */
-  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  .navbar > .container .navbar-brand, .product-navbar > .container .navbar-brand, .navbar > .container .header-logo, .product-navbar > .container .header-logo, .navbar > .container-fluid .navbar-brand, .product-navbar > .container-fluid .navbar-brand, .navbar > .container-fluid .header-logo, .product-navbar > .container-fluid .header-logo {
     margin-left: -15px;
   }
 }
@@ -5904,11 +5904,11 @@ tbody.collapse.in {
   border-color: #e7e7e7;
 }
 /* line 401, ../sass/bootstrap/_navbar.scss */
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand, .navbar-default .header-logo {
   color: #777;
 }
 /* line 403, ../sass/bootstrap/_navbar.scss */
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+.navbar-default .navbar-brand:hover, .navbar-default .header-logo:hover, .navbar-default .navbar-brand:focus, .navbar-default .header-logo:focus {
   color: #5e5e5e;
   background-color: transparent;
 }
@@ -6005,11 +6005,11 @@ tbody.collapse.in {
   border-color: #090909;
 }
 /* line 535, ../sass/bootstrap/_navbar.scss */
-.navbar-inverse .navbar-brand {
+.navbar-inverse .navbar-brand, .navbar-inverse .header-logo {
   color: #9d9d9d;
 }
 /* line 537, ../sass/bootstrap/_navbar.scss */
-.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .header-logo:hover, .navbar-inverse .navbar-brand:focus, .navbar-inverse .header-logo:focus {
   color: #fff;
   background-color: transparent;
 }
@@ -6432,48 +6432,50 @@ a.badge:hover, a.badge:focus {
 }
 
 /* line 6, ../sass/bootstrap/_jumbotron.scss */
-.jumbotron {
+.jumbotron, .reg-action {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: inherit;
   background-color: #eeeeee;
 }
 /* line 12, ../sass/bootstrap/_jumbotron.scss */
-.jumbotron h1,
-.jumbotron .h1 {
+.jumbotron h1, .reg-action h1,
+.jumbotron .h1,
+.reg-action .h1 {
   color: inherit;
 }
 /* line 17, ../sass/bootstrap/_jumbotron.scss */
-.jumbotron p {
+.jumbotron p, .reg-action p {
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
 }
 /* line 23, ../sass/bootstrap/_jumbotron.scss */
-.jumbotron > hr {
+.jumbotron > hr, .reg-action > hr {
   border-top-color: #d5d5d5;
 }
 /* line 27, ../sass/bootstrap/_jumbotron.scss */
-.container .jumbotron, .container-fluid .jumbotron {
+.container .jumbotron, .container .reg-action, .container-fluid .jumbotron, .container-fluid .reg-action {
   border-radius: 6px;
 }
 /* line 32, ../sass/bootstrap/_jumbotron.scss */
-.jumbotron .container {
+.jumbotron .container, .reg-action .container {
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
   /* line 6, ../sass/bootstrap/_jumbotron.scss */
-  .jumbotron {
+  .jumbotron, .reg-action {
     padding: 48px 0;
   }
   /* line 39, ../sass/bootstrap/_jumbotron.scss */
-  .container .jumbotron, .container-fluid .jumbotron {
+  .container .jumbotron, .container .reg-action, .container-fluid .jumbotron, .container-fluid .reg-action {
     padding-left: 60px;
     padding-right: 60px;
   }
   /* line 45, ../sass/bootstrap/_jumbotron.scss */
-  .jumbotron h1,
-  .jumbotron .h1 {
+  .jumbotron h1, .reg-action h1,
+  .jumbotron .h1,
+  .reg-action .h1 {
     font-size: 63px;
   }
 }
@@ -8248,7 +8250,7 @@ button.close {
 }
 
 /* line 36, ../sass/bootstrap/_utilities.scss */
-.text-hide {
+.text-hide, .header-logo {
   font: 0/0 a;
   color: transparent;
   text-shadow: none;
@@ -11931,6 +11933,47 @@ button.close {
   src: url("../fonts/Roboto-Thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Thin-webfont.woff2") format("woff2"), url("../fonts/Roboto-Thin-webfont.woff") format("woff"), url("../fonts/Roboto-Thin-webfont.ttf") format("truetype"), url("../fonts/Roboto-Thin-webfont.svg#robotothin") format("svg");
   font-weight: normal;
   font-style: normal;
+}
+/*---------------------------*/
+/* extend bootstrap elements */
+/*---------------------------*/
+/* header logo */
+/* line 59, ../sass/_custom.scss */
+.header-logo {
+  background-image: url(/images/../images/logo.png?1428601411);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 62px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 59, ../sass/_custom.scss */
+  .header-logo {
+    background-image: url(/images/../images/logo@2x.png?1428601411);
+    background-size: 32px 26px;
+  }
+}
+
+/* making the products navigation bar */
+/* line 71, ../sass/_custom.scss */
+.product-navbar {
+  background: #e5e5e5;
+}
+
+/* line 77, ../sass/_custom.scss */
+.products-navbar-product {
+  padding: 15px 0;
+}
+
+/* making .row class a semantic elements */
+/* customize promo are based on bootstrap jumbotron */
+/* line 89, ../sass/_custom.scss */
+.reg-action {
+  background: #009BE1;
+  color: #fbfeff;
+}
+/* line 93, ../sass/_custom.scss */
+.reg-action h1 {
+  font-size: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */

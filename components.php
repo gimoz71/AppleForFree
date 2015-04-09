@@ -155,9 +155,6 @@
             <a class="btn btn-block btn-social btn-dropbox">
                 <i class="fa fa-dropbox"></i> Sign in with Dropbox
             </a>
-            <a class="btn btn-block btn-social btn-facebook">
-                <i class="fa fa-facebook"></i> Sign in with Facebook
-            </a>
             <a class="btn btn-block btn-social btn-flickr">
                 <i class="fa fa-flickr"></i> Sign in with Flickr
             </a>
@@ -178,6 +175,9 @@
             </a>
             <a class="btn btn-block btn-social btn-tumblr">
                 <i class="fa fa-tumblr"></i> Sign in with Tumblr
+            </a>
+            <a class="btn btn-block btn-social btn-facebook">
+                <i class="fa fa-facebook"></i> Sign in with Facebook
             </a>
             <a class="btn btn-block btn-social btn-twitter">
                 <i class="fa fa-twitter"></i> Sign in with Twitter
