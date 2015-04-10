@@ -12219,8 +12219,9 @@ button.close {
   background: #009BE1;
   color: #fbfeff;
   border-radius: 0px !important;
+  margin-bottom: 0;
 }
-/* line 94, ../sass/_custom.scss */
+/* line 95, ../sass/_custom.scss */
 .reg-action h1 {
   font-size: 50px;
 }

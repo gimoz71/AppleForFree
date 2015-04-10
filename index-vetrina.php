@@ -210,11 +210,18 @@
                 <i class="fa fa-twitter"></i> Registrati con Twitter
             </a>
         </div>
-
-
-
     </div> <!-- /container -->
-
+    <footer class="footer">
+        <div class="container">
+            <span class="navbar-text pull-left"><b>Apple</b>ForFree</span>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Network</a></li>
+                <li><a href="#">Soluzioni pubblicitarie</a></li>
+                <li><a href="#">Programma di affiliazione</a></li>
+                <li><a href="#">Contatti</a></li>
+            </ul>
+        </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
