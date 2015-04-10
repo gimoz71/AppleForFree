@@ -215,7 +215,7 @@
         <div class="container">
             <span class="navbar-text pull-left"><b>Apple</b>ForFree</span>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Network</a></li>
+                <li><a href="#"  class="navbar-link">Network</a></li>
                 <li><a href="#">Soluzioni pubblicitarie</a></li>
                 <li><a href="#">Programma di affiliazione</a></li>
                 <li><a href="#">Contatti</a></li>

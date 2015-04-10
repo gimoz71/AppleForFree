@@ -56,7 +56,7 @@
         <div class="container">
             <header>
                 <div class="menu">www.<strong>apple</strong>forfree.com</div>
-                <h1 class="logo">AppleForFree.com</h1>
+                <h1 class="logo"><span>AppleForFree.com</span></h1>
                 <h2>La mela pi&ugrave; ambita diventa per tutti!</h2>
             </header>
             <div class="content">

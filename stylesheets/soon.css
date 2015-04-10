@@ -31,62 +31,62 @@
 /*----------------------------------*/
 /* basic stuff */
 /*----------------------------------*/
-/* line 63, ../sass/soon.scss */
+/* line 65, ../sass/soon.scss */
 h1, h2, h3, h4, h5, p {
   margin: 0;
   padding: 0;
 }
 
-/* line 68, ../sass/soon.scss */
+/* line 70, ../sass/soon.scss */
 h1 {
   font-size: 36px;
   font-size: 1.125rem;
 }
 
-/* line 73, ../sass/soon.scss */
+/* line 75, ../sass/soon.scss */
 h2 {
   font-size: 32px;
   font-size: 2rem;
 }
 
-/* line 78, ../sass/soon.scss */
+/* line 80, ../sass/soon.scss */
 h3 {
   font-size: 32px;
   font-size: 2rem;
 }
 
-/* line 83, ../sass/soon.scss */
+/* line 85, ../sass/soon.scss */
 h4 {
   font-size: 20px;
   font-size: 1.25rem;
 }
 
-/* line 88, ../sass/soon.scss */
+/* line 90, ../sass/soon.scss */
 strong {
   font-family: "robotolight",Helvetica,sans-serif;
 }
 
-/* line 92, ../sass/soon.scss */
+/* line 94, ../sass/soon.scss */
 a:link, a:visited {
   color: #337FC5;
   text-decoration: none;
 }
 
-/* line 96, ../sass/soon.scss */
+/* line 98, ../sass/soon.scss */
 a:hover, a:active {
   color: #337FC5;
   text-decoration: underline;
 }
 
 /* Macroelements  */
-/* line 103, ../sass/soon.scss */
+/* line 105, ../sass/soon.scss */
 html {
   margin: 0;
   padding: 0;
   font-family: "robotothin",Helvetica,sans-serif;
 }
 
-/* line 109, ../sass/soon.scss */
+/* line 111, ../sass/soon.scss */
 body {
   -webkit-font-smoothing: antialiased;
   background: #000 url(../images/bg.jpg) no-repeat center top;
@@ -99,19 +99,19 @@ body {
   text-align: center;
 }
 @media (max-width: 980px) {
-  /* line 109, ../sass/soon.scss */
+  /* line 111, ../sass/soon.scss */
   body {
     padding: 20px 0;
   }
 }
 
-/* line 124, ../sass/soon.scss */
+/* line 126, ../sass/soon.scss */
 header {
   padding: 0;
   margin: 0;
 }
 
-/* line 130, ../sass/soon.scss */
+/* line 132, ../sass/soon.scss */
 footer {
   display: block;
   margin: 0;
@@ -120,89 +120,118 @@ footer {
 }
 
 /* header */
-/* line 142, ../sass/soon.scss */
+/* line 144, ../sass/soon.scss */
 header .menu {
   font-size: 24px;
   margin-bottom: 120px;
 }
-/* line 146, ../sass/soon.scss */
+/* line 148, ../sass/soon.scss */
 header .logo {
   display: block;
   margin: 10px auto;
-  background: url("../images/logo.png") no-repeat center top;
-  background-size: cover;
   width: 288px;
   height: 239px;
   font-size: 0;
   line-height: 0;
 }
-/* line 156, ../sass/soon.scss */
+/* line 155, ../sass/soon.scss */
+header .logo span {
+  display: block;
+  width: 288px;
+  height: 239px;
+  background-image: url("../images/splash-logo.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 155, ../sass/soon.scss */
+  header .logo span {
+    background-image: url("../images/splash-logo@2x.png");
+    background-size: 288px 239px;
+  }
+}
+/* line 164, ../sass/soon.scss */
 header h2 {
   font-size: 34px;
 }
 @media (max-width: 980px) {
-  /* line 160, ../sass/soon.scss */
+  /* line 168, ../sass/soon.scss */
   header .menu {
     font-size: 20px;
     margin-bottom: 40px;
   }
-  /* line 164, ../sass/soon.scss */
+  /* line 172, ../sass/soon.scss */
   header .logo {
     width: 188px;
     height: 156px;
   }
-  /* line 168, ../sass/soon.scss */
+  /* line 175, ../sass/soon.scss */
+  header .logo span {
+    width: 188px;
+    height: 156px;
+    background-image: url("../images/splash-logo.png");
+  }
+}
+@media only screen and (max-width: 980px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 980px) and (min--moz-device-pixel-ratio: 2), only screen and (max-width: 980px) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (max-width: 980px) and (min-device-pixel-ratio: 2), only screen and (max-width: 980px) and (min-resolution: 192dpi), only screen and (max-width: 980px) and (min-resolution: 2dppx) {
+  /* line 175, ../sass/soon.scss */
+  header .logo span {
+    background-image: url("../images/splash-logo@2x.png");
+    background-size: 188px 156px;
+  }
+}
+@media (max-width: 980px) {
+  /* line 181, ../sass/soon.scss */
   header h2 {
     font-size: 28px;
   }
 }
 
 /* content */
-/* line 177, ../sass/soon.scss */
+/* line 190, ../sass/soon.scss */
 .content {
   width: 90%;
   margin: 40px auto;
 }
-/* line 180, ../sass/soon.scss */
+/* line 193, ../sass/soon.scss */
 .content p {
   font-size: 24px;
   line-height: 1.2em;
 }
 @media (max-width: 980px) {
-  /* line 180, ../sass/soon.scss */
+  /* line 193, ../sass/soon.scss */
   .content p {
     font-size: 20px;
   }
 }
 
 /* footer */
-/* line 193, ../sass/soon.scss */
+/* line 206, ../sass/soon.scss */
 footer p {
   font-family: "robotonormal",Helvetica,sans-serif;
   color: #486AB6;
   font-size: 16px;
 }
-/* line 198, ../sass/soon.scss */
+/* line 211, ../sass/soon.scss */
 footer h4 {
   font-size: 26px;
 }
-/* line 201, ../sass/soon.scss */
+/* line 214, ../sass/soon.scss */
 footer .fb-like {
   display: inline-block;
   margin: 10px 0;
 }
 @media (max-width: 980px) {
-  /* line 206, ../sass/soon.scss */
+  /* line 219, ../sass/soon.scss */
   footer p {
     font-family: "robotonormal",Helvetica,sans-serif;
     color: #486AB6;
     font-size: 14px;
   }
-  /* line 211, ../sass/soon.scss */
+  /* line 224, ../sass/soon.scss */
   footer h4 {
     font-size: 20px;
   }
-  /* line 214, ../sass/soon.scss */
+  /* line 227, ../sass/soon.scss */
   footer .fb-like {
     margin: 10px 0;
   }

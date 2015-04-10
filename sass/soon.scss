@@ -1,5 +1,7 @@
 /* CSS Document */
 
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 
 @font-face {
     font-family: 'robotobold';
@@ -146,12 +148,18 @@ header {
     .logo {
         display: block;
         margin: 10px auto;
-        background: url("../images/logo.png") no-repeat center top;
-        background-size: cover;
         width: 288px;
         height: 239px;
         font-size: 0;
         line-height: 0;
+        span {
+            display: block;
+            width: 288px;
+            height: 239px;
+            @include img-retina("../images/splash-logo.png", "../images/splash-logo@2x.png", 288px, 239px);
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
     }
     h2 {
         font-size: 34px;
@@ -164,6 +172,11 @@ header {
         .logo {
             width: 188px;
             height: 156px;
+            span {
+                width: 188px;
+                height: 156px;
+                @include img-retina("../images/splash-logo.png", "../images/splash-logo@2x.png", 188px, 156px);
+            }
         }
         h2 {
             font-size: 28px;

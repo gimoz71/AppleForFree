@@ -12219,7 +12219,7 @@ button.close {
   background: #009BE1;
   color: #fbfeff;
   border-radius: 0px !important;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 /* line 95, ../sass/_custom.scss */
 .reg-action h1 {
