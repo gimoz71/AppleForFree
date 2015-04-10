@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* bootstrap stuff */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /* line 9, ../sass/bootstrap/_normalize.scss */
 html {
@@ -2407,7 +2408,7 @@ pre code {
 }
 
 /* line 11, ../sass/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .products-navbar-product, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .products-navbar-product, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2415,7 +2416,7 @@ pre code {
 }
 
 /* line 27, ../sass/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+.col-xs-1, .col-xs-2, .products-navbar-product, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
 }
 
@@ -2425,7 +2426,7 @@ pre code {
 }
 
 /* line 35, ../sass/bootstrap/mixins/_grid-framework.scss */
-.col-xs-2 {
+.col-xs-2, .products-navbar-product {
   width: 16.6666666667%;
 }
 
@@ -2937,7 +2938,7 @@ pre code {
 }
 @media (min-width: 992px) {
   /* line 27, ../sass/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .products-navbar-product, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
 
@@ -2947,7 +2948,7 @@ pre code {
   }
 
   /* line 35, ../sass/bootstrap/mixins/_grid-framework.scss */
-  .col-md-2, .products-navbar-product {
+  .col-md-2 {
     width: 16.6666666667%;
   }
 
@@ -11903,6 +11904,253 @@ button.close {
 /* line 552, ../sass/font-awesome/_icons.scss */
 .fa-meanpath:before {
   content: "";
+}
+
+/* custom styles */
+/* SCSS Document */
+/* line 8, ../sass/_other-utility.scss */
+.spacer5 {
+  height: 5px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 8, ../sass/_other-utility.scss */
+.spacer10 {
+  height: 10px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 8, ../sass/_other-utility.scss */
+.spacer15 {
+  height: 15px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 8, ../sass/_other-utility.scss */
+.spacer20 {
+  height: 20px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 8, ../sass/_other-utility.scss */
+.spacer25 {
+  height: 25px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 8, ../sass/_other-utility.scss */
+.spacer30 {
+  height: 30px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 8, ../sass/_other-utility.scss */
+.spacer35 {
+  height: 35px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 8, ../sass/_other-utility.scss */
+.spacer40 {
+  height: 40px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 8, ../sass/_other-utility.scss */
+.spacer45 {
+  height: 45px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 8, ../sass/_other-utility.scss */
+.spacer50 {
+  height: 50px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 8, ../sass/_other-utility.scss */
+.spacer100 {
+  height: 100px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 8, ../sass/_other-utility.scss */
+.spacer200 {
+  height: 200px;
+  width: 100%;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/*
+.spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer15 { height: 15px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer20 { height: 20px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer25 { height: 25px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer30 { height: 30px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer35 { height: 35px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer40 { height: 40px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer45 { height: 45px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/* allineamento responsivo del testo */
+/* line 30, ../sass/_other-utility.scss */
+.text-xs-left {
+  text-align: left;
+}
+
+/* line 31, ../sass/_other-utility.scss */
+.text-xs-right {
+  text-align: right;
+}
+
+/* line 32, ../sass/_other-utility.scss */
+.text-xs-center {
+  text-align: center;
+}
+
+/* line 33, ../sass/_other-utility.scss */
+.text-xs-justify {
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  /* line 36, ../sass/_other-utility.scss */
+  .text-sm-left {
+    text-align: left;
+  }
+
+  /* line 37, ../sass/_other-utility.scss */
+  .text-sm-right {
+    text-align: right;
+  }
+
+  /* line 38, ../sass/_other-utility.scss */
+  .text-sm-center {
+    text-align: center;
+  }
+
+  /* line 39, ../sass/_other-utility.scss */
+  .text-sm-justify {
+    text-align: justify;
+  }
+}
+@media (min-width: 992px) {
+  /* line 43, ../sass/_other-utility.scss */
+  .text-md-left {
+    text-align: left;
+  }
+
+  /* line 44, ../sass/_other-utility.scss */
+  .text-md-right {
+    text-align: right;
+  }
+
+  /* line 45, ../sass/_other-utility.scss */
+  .text-md-center {
+    text-align: center;
+  }
+
+  /* line 46, ../sass/_other-utility.scss */
+  .text-md-justify {
+    text-align: justify;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 50, ../sass/_other-utility.scss */
+  .text-lg-left {
+    text-align: left;
+  }
+
+  /* line 51, ../sass/_other-utility.scss */
+  .text-lg-right {
+    text-align: right;
+  }
+
+  /* line 52, ../sass/_other-utility.scss */
+  .text-lg-center {
+    text-align: center;
+  }
+
+  /* line 53, ../sass/_other-utility.scss */
+  .text-lg-justify {
+    text-align: justify;
+  }
+}
+/* centratura delle colonne, utile  quando sono dispari o comunque non aderenti alla griglia di bootstrap */
+/* line 59, ../sass/_other-utility.scss */
+.row-centered {
+  text-align: center;
+}
+
+/* line 62, ../sass/_other-utility.scss */
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
 }
 
 /* SCSS Document */

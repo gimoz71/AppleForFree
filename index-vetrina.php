@@ -96,7 +96,7 @@
         </div>
     </nav>
 
-    <div class="container theme-showcase" role="main">
+    <div class="container theme-showcase text-xs-center text-md-left" role="main">
         <div class="text-center text-muted">
             <h1>Regalati gratis il tuo nuovo Apple</h1>
         </div>
@@ -141,6 +141,7 @@
                         <a class="btn btn-social btn-facebook">
                             <i class="fa fa-facebook"></i> Registrati con Facebook
                         </a>
+                        <div class="spacer10 hidden-lg hidden-md hidden-sm"></div>
                         <a class="btn btn-social btn-twitter">
                             <i class="fa fa-twitter"></i> Registrati con Twitter
                         </a>
@@ -204,6 +205,7 @@
             <a class="btn btn-social btn-facebook">
                 <i class="fa fa-facebook"></i> Registrati con Facebook
             </a>
+            <div class="spacer10 hidden-lg hidden-md hidden-sm"></div>
             <a class="btn btn-social btn-twitter">
                 <i class="fa fa-twitter"></i> Registrati con Twitter
             </a>
