@@ -170,6 +170,8 @@ header h2 {
     width: 188px;
     height: 156px;
     background-image: url("../images/splash-logo.png");
+    background-size: 188px;
+    height: 156px;
   }
 }
 @media only screen and (max-width: 980px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 980px) and (min--moz-device-pixel-ratio: 2), only screen and (max-width: 980px) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (max-width: 980px) and (min-device-pixel-ratio: 2), only screen and (max-width: 980px) and (min-resolution: 192dpi), only screen and (max-width: 980px) and (min-resolution: 2dppx) {
@@ -180,58 +182,58 @@ header h2 {
   }
 }
 @media (max-width: 980px) {
-  /* line 181, ../sass/soon.scss */
+  /* line 183, ../sass/soon.scss */
   header h2 {
     font-size: 28px;
   }
 }
 
 /* content */
-/* line 190, ../sass/soon.scss */
+/* line 192, ../sass/soon.scss */
 .content {
   width: 90%;
   margin: 40px auto;
 }
-/* line 193, ../sass/soon.scss */
+/* line 195, ../sass/soon.scss */
 .content p {
   font-size: 24px;
   line-height: 1.2em;
 }
 @media (max-width: 980px) {
-  /* line 193, ../sass/soon.scss */
+  /* line 195, ../sass/soon.scss */
   .content p {
     font-size: 20px;
   }
 }
 
 /* footer */
-/* line 206, ../sass/soon.scss */
+/* line 208, ../sass/soon.scss */
 footer p {
   font-family: "robotonormal",Helvetica,sans-serif;
   color: #486AB6;
   font-size: 16px;
 }
-/* line 211, ../sass/soon.scss */
+/* line 213, ../sass/soon.scss */
 footer h4 {
   font-size: 26px;
 }
-/* line 214, ../sass/soon.scss */
+/* line 216, ../sass/soon.scss */
 footer .fb-like {
   display: inline-block;
   margin: 10px 0;
 }
 @media (max-width: 980px) {
-  /* line 219, ../sass/soon.scss */
+  /* line 221, ../sass/soon.scss */
   footer p {
     font-family: "robotonormal",Helvetica,sans-serif;
     color: #486AB6;
     font-size: 14px;
   }
-  /* line 224, ../sass/soon.scss */
+  /* line 226, ../sass/soon.scss */
   footer h4 {
     font-size: 20px;
   }
-  /* line 227, ../sass/soon.scss */
+  /* line 229, ../sass/soon.scss */
   footer .fb-like {
     margin: 10px 0;
   }
