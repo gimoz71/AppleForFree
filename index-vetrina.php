@@ -87,12 +87,12 @@
     </nav>
     <nav class="product-navbar">
         <div class="container">
-            <div class="products-navbar-product">icona</div>
-            <div class="products-navbar-product">icona</div>
-            <div class="products-navbar-product">icona</div>
-            <div class="products-navbar-product">icona</div>
-            <div class="products-navbar-product">icona</div>
-            <div class="products-navbar-product">icona</div>
+            <a class="products-navbar-product"><span>5</span>iPhone</a>
+            <a class="products-navbar-product"><span>6</span>iPad</a>
+            <a class="products-navbar-product"><span>7</span>MacBook</a>
+            <a class="products-navbar-product"><span>8</span>iMac</a>
+            <a class="products-navbar-product"><span>5</span>icona</a>
+            <a class="products-navbar-product"><span>5</span>icona</a>
         </div>
     </nav>
 
