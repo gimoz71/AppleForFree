@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -43,12 +42,3 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-=======
-<?php
-/**
- * Created by PhpStorm.
- * User: Gianluca
- * Date: 20/04/15
- * Time: 12.40
- */ 
->>>>>>> 006abd652c9ff2c6b763f5a1d537ffdd95d4b36e
