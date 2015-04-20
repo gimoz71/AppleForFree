@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+<footer class="footer">
+    <div class="container text-center">
+        <div class="col-md-3 col-sm-12">
+            <span class="navbar-text"><b>Apple</b>ForFree</span>
+        </div>
+        <div class="col-md-9 col-sm-12">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"  class="navbar-link">Network</a></li>
+                <li><a href="#">Soluzioni pubblicitarie</a></li>
+                <li><a href="#">Programma di affiliazione</a></li>
+                <li><a href="#">Contatti</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+=======
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -42,3 +59,4 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
+>>>>>>> 006abd652c9ff2c6b763f5a1d537ffdd95d4b36e
