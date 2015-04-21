@@ -62,7 +62,7 @@
         <div class="other-products">
             <div class="col-sm-6 col-md-3">
                 <div class="text-center">
-                    <img src="holder.js/100%x200" alt="img">
+                    <img src="http://www.appletvblack.com/wp-content/uploads/2015/02/old-MacBook-Pro-13.jpg" class="img-responsive"  alt="img">
                     <div class="caption">
                         <h4>iMac Retina 5k</h4>
                         <h4><del class="text-muted">1.245 €</del> <b>Free</b></h4>
