@@ -128,3 +128,34 @@
         font-size: 50px;
     }
 }
+
+/* img anim */
+
+.img-hover {
+  @include transition(all .3s ease);
+}
+.img-hover:hover {
+  @include backface-visibility(hidden);
+  @include scale(1.10);
+}
+
+/* customize some bootstrap elements */
+
+body {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}

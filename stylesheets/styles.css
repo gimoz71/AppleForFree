@@ -371,8 +371,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?1429190932);
-  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?&1429190932#iefix) format("embedded-opentype"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff2) format("woff2"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff?1429190932) format("woff"), url(/fonts/bootstrap/glyphicons-halflings-regular.ttf?1429190932) format("truetype"), url(/fonts/bootstrap/glyphicons-halflings-regular.svg?1429190932#glyphicons_halflingsregular) format("svg");
+  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?1426526604);
+  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?&1426526604#iefix) format("embedded-opentype"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff2?1426526604) format("woff2"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff?1426526604) format("woff"), url(/fonts/bootstrap/glyphicons-halflings-regular.ttf?1426526604) format("truetype"), url(/fonts/bootstrap/glyphicons-halflings-regular.svg?1426526604#glyphicons_halflingsregular) format("svg");
 }
 /* line 22, ../sass/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -12040,110 +12040,113 @@ button.close {
   display: block;
 }
 
-/*
-.spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer15 { height: 15px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer20 { height: 20px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer25 { height: 25px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer30 { height: 30px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer35 { height: 35px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer40 { height: 40px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer45 { height: 45px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }*/
+/* Quanto sopra equivale a queste dichiarazioni:
+
+    .spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+    .spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+    .spacer15 { height: 15px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+    .spacer20 { height: 20px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+    .spacer25 { height: 25px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+    .spacer30 { height: 30px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+    .spacer35 { height: 35px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+    .spacer40 { height: 40px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+    .spacer45 { height: 45px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+    .spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+    .spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+    .spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+
+*/
 /* allineamento responsivo del testo */
-/* line 30, ../sass/_other-utility.scss */
+/* line 33, ../sass/_other-utility.scss */
 .text-xs-left {
   text-align: left;
 }
 
-/* line 31, ../sass/_other-utility.scss */
+/* line 34, ../sass/_other-utility.scss */
 .text-xs-right {
   text-align: right;
 }
 
-/* line 32, ../sass/_other-utility.scss */
+/* line 35, ../sass/_other-utility.scss */
 .text-xs-center {
   text-align: center;
 }
 
-/* line 33, ../sass/_other-utility.scss */
+/* line 36, ../sass/_other-utility.scss */
 .text-xs-justify {
   text-align: justify;
 }
 
 @media (min-width: 768px) {
-  /* line 36, ../sass/_other-utility.scss */
+  /* line 39, ../sass/_other-utility.scss */
   .text-sm-left {
     text-align: left;
   }
 
-  /* line 37, ../sass/_other-utility.scss */
+  /* line 40, ../sass/_other-utility.scss */
   .text-sm-right {
     text-align: right;
   }
 
-  /* line 38, ../sass/_other-utility.scss */
+  /* line 41, ../sass/_other-utility.scss */
   .text-sm-center {
     text-align: center;
   }
 
-  /* line 39, ../sass/_other-utility.scss */
+  /* line 42, ../sass/_other-utility.scss */
   .text-sm-justify {
     text-align: justify;
   }
 }
 @media (min-width: 992px) {
-  /* line 43, ../sass/_other-utility.scss */
+  /* line 46, ../sass/_other-utility.scss */
   .text-md-left {
     text-align: left;
   }
 
-  /* line 44, ../sass/_other-utility.scss */
+  /* line 47, ../sass/_other-utility.scss */
   .text-md-right {
     text-align: right;
   }
 
-  /* line 45, ../sass/_other-utility.scss */
+  /* line 48, ../sass/_other-utility.scss */
   .text-md-center {
     text-align: center;
   }
 
-  /* line 46, ../sass/_other-utility.scss */
+  /* line 49, ../sass/_other-utility.scss */
   .text-md-justify {
     text-align: justify;
   }
 }
 @media (min-width: 1200px) {
-  /* line 50, ../sass/_other-utility.scss */
+  /* line 53, ../sass/_other-utility.scss */
   .text-lg-left {
     text-align: left;
   }
 
-  /* line 51, ../sass/_other-utility.scss */
+  /* line 54, ../sass/_other-utility.scss */
   .text-lg-right {
     text-align: right;
   }
 
-  /* line 52, ../sass/_other-utility.scss */
+  /* line 55, ../sass/_other-utility.scss */
   .text-lg-center {
     text-align: center;
   }
 
-  /* line 53, ../sass/_other-utility.scss */
+  /* line 56, ../sass/_other-utility.scss */
   .text-lg-justify {
     text-align: justify;
   }
 }
 /* centratura delle colonne, utile  quando sono dispari o comunque non aderenti alla griglia di bootstrap */
-/* line 59, ../sass/_other-utility.scss */
+/* line 62, ../sass/_other-utility.scss */
 .row-centered {
   text-align: center;
 }
 
-/* line 62, ../sass/_other-utility.scss */
+/* line 65, ../sass/_other-utility.scss */
 .col-centered {
   display: inline-block;
   float: none;
@@ -12256,6 +12259,49 @@ button.close {
 /* line 127, ../sass/_custom.scss */
 .reg-action h1 {
   font-size: 50px;
+}
+
+/* img anim */
+/* line 134, ../sass/_custom.scss */
+.img-hover {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 137, ../sass/_custom.scss */
+.img-hover:hover {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* customize some bootstrap elements */
+/* line 144, ../sass/_custom.scss */
+body {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+/* line 149, ../sass/_custom.scss */
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* line 155, ../sass/_custom.scss */
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+/* line 159, ../sass/_custom.scss */
+.theme-showcase .navbar .container, .theme-showcase .product-navbar .container {
+  width: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
