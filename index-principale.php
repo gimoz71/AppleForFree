@@ -21,28 +21,8 @@
     <link href="stylesheets/styles.css" rel="stylesheet">
     <link href="stylesheets/sb-admin-2.css" rel="stylesheet">
     <!-- Optional theme -->
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
-    <style>
-        body {
-            padding-top: 50px;
-            padding-bottom: 30px;
-        }
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
 
-        .theme-dropdown .dropdown-menu {
-            position: static;
-            display: block;
-            margin-bottom: 20px;
-        }
-
-        .theme-showcase > p > .btn {
-            margin: 5px 0;
-        }
-
-        .theme-showcase .navbar .container {
-            width: auto;
-        }
-
-    </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -62,9 +42,9 @@
         <div class="other-products">
             <div class="col-sm-6 col-md-3">
                 <div class="text-center">
-                    <img src="http://www.appletvblack.com/wp-content/uploads/2015/02/old-MacBook-Pro-13.jpg" class="img-responsive"  alt="img">
+                    <a href="#"><img src="http://www.appletvblack.com/wp-content/uploads/2015/02/old-MacBook-Pro-13.jpg" class="img-responsive img-hover"  alt="img"></a>
                     <div class="caption">
-                        <h4>iMac Retina 5k</h4>
+                        <h4><a href="#">iMac Retina 5k</a></h4>
                         <h4><del class="text-muted">1.245 €</del> <b>Free</b></h4>
                         <h4><b>Delivery list 20</b></h4>
                     </div>
@@ -72,9 +52,9 @@
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="text-center">
-                    <img src="holder.js/100%x200" alt="img">
+                    <a href="#"><img src="holder.js/100%x200" alt="img"></a>
                     <div class="caption">
-                        <h4>iMac Retina 5k</h4>
+                        <h4><a href="#">iMac Retina 5k</a></h4>
                         <h4><del class="text-muted">1.245 €</del> <b>Free</b></h4>
                         <h4><b>Delivery list 20</b></h4>
                     </div>
@@ -185,14 +165,18 @@
         <?php include '_include/call_to_action.php' ?>
     </div> <!-- /container -->
     <?php include '_include/footer.php' ?>
+
     <!-- Bootstrap core JavaScript
+    ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="javascripts/bootstrap.js"></script>
     <script src="javascripts/holder.js"></script>
     <script>
-        $('.dropdown-toggle').dropdown()
+        $(function () {
+            $('.dropdown-toggle').dropdown()
+            $('[data-toggle="popover"]').popover()
+        })
     </script>
 </body>
 </html>
-

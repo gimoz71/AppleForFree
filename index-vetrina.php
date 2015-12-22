@@ -21,28 +21,8 @@
     <link href="stylesheets/styles.css" rel="stylesheet">
     <link href="stylesheets/sb-admin-2.css" rel="stylesheet">
     <!-- Optional theme -->
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
-    <style>
-        body {
-            padding-top: 50px;
-            padding-bottom: 30px;
-        }
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">-->
 
-        .theme-dropdown .dropdown-menu {
-            position: static;
-            display: block;
-            margin-bottom: 20px;
-        }
-
-        .theme-showcase > p > .btn {
-            margin: 5px 0;
-        }
-
-        .theme-showcase .navbar .container {
-            width: auto;
-        }
-
-    </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -53,53 +33,11 @@
 <body role="document">
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="header-logo" href="#">AppleForFree</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Come funziona</a></li>
-                    <li><a href="#testimonianze">Testimonianze</a></li>
-                    <li><a href="#about">Faq</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">login <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Inglese</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Italiano <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Inglese</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </nav>
+    <?php include '_include/nav.php'; ?>
+
     <nav class="product-navbar">
         <div class="container">
-            <a class="products-navbar-product"><span>5</span>iPhone</a>
+            <a class="products-navbar-product" data-container="body" data-toggle="popover" data-placement="bottom" title="Offerte iPhone" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."><span>5</span>iPhone</a>
             <a class="products-navbar-product"><span>6</span>iPad</a>
             <a class="products-navbar-product"><span>7</span>MacBook</a>
             <a class="products-navbar-product"><span>8</span>iMac</a>
@@ -210,32 +148,9 @@
             </div>
         </div>
         <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="reg-action text-center">
-            <h1>Registrati subito per ricevere gratis il tuo nuovo Apple Iphone 6</h1>
-            <a class="btn btn-social btn-facebook">
-                <i class="fa fa-facebook"></i> Registrati con Facebook
-            </a>
-            <div class="spacer10 hidden-lg hidden-md hidden-sm"></div>
-            <a class="btn btn-social btn-twitter">
-                <i class="fa fa-twitter"></i> Registrati con Twitter
-            </a>
-        </div>
+        <?php include '_include/call_to_action.php' ?>
     </div> <!-- /container -->
-    <footer class="footer">
-        <div class="container text-center">
-            <div class="col-md-3 col-sm-12">
-                <span class="navbar-text"><b>Apple</b>ForFree</span>
-            </div>
-            <div class="col-md-9 col-sm-12">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"  class="navbar-link">Network</a></li>
-                    <li><a href="#">Soluzioni pubblicitarie</a></li>
-                    <li><a href="#">Programma di affiliazione</a></li>
-                    <li><a href="#">Contatti</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+    <?php include '_include/footer.php' ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -244,8 +159,10 @@
     <script src="javascripts/bootstrap.js"></script>
     <script src="javascripts/holder.js"></script>
     <script>
-        $('.dropdown-toggle').dropdown()
+        $(function () {
+            $('.dropdown-toggle').dropdown()
+            $('[data-toggle="popover"]').popover()
+        })
     </script>
 </body>
 </html>
-
